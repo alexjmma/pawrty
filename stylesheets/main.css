@@ -1,13 +1,22 @@
 .sidebar {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  height: 100%;
+  /* Full-height: remove this if you want "auto" height */
+  width: 160px;
+  /* Set the width of the sidebar */
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
   left: 0;
-  background-color: #1682c0;/*#2FA4E7;*/ /* Blue */
-  overflow-x: hidden; /* Disa/ble horizontal scroll */
+  background-color: #1682c0;
+  /*#2FA4E7;*/
+  /* Blue */
+  overflow-x: hidden;
+  /* Disa/ble horizontal scroll */
   padding-top: 20px;
+  padding-left: 1px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -25,7 +34,12 @@
 .main-header {
   background-color: #2FA4E7;
   max-width: 100%;
+}
 
+.myJumbotron {
+  display: flex;
+  flex-direction: column;
+  padding-left: 150px;
 }
 
 .dog-list {
@@ -64,6 +78,7 @@
   display: flex;
   justify-content: center;
 }
+
 ul {
   list-style-type: none;
 }
